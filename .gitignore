@@ -1,0 +1,24 @@
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local datasets
+PLD_3_Classes_256/
+
+# Model checkpoints and generated models
+*.keras
+*.h5
+*.hdf5
+*.pkl
+
+# Operating system
+.DS_Store
+Thumbs.db
+```
